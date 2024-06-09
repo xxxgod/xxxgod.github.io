@@ -14,7 +14,7 @@
 <p>仓库生成后，复制自己的仓库地址，后续部署的时候需要（如果仓库里面没有文件，进入之后就是图一的样子，否则是图二，红框里就是地址）</p>
 <p>二、本地安装git<br>Mac 系统：brew install git<br>其他系统可参考官网：<a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a><br>三、本地安装node.js<br>安装 nvm<br>Mac系统：brew install nvm<br>其他系统可参考官网：<a href="https://nodejs.org/zh-cn/download">https://nodejs.org/zh-cn/download</a></p>
 <p>配置环境变量：vim <del>&#x2F;.zshrc<br>export NVM_DIR&#x3D;</del>&#x2F;.nvm<br>source $(brew –prefix nvm)&#x2F;nvm.sh<br>生效环境变量：source ~&#x2F;.zshrc<br>查看 node.js 的可用版本：nvm ls-remote<br>安装 node.js（版本需不低于 10.13，官方建议使用 Node.js 12.0 及以上版本）：nvm install v16.20.0</p>
-<p>使用指定版本：nvm use v16.20.0<br>指定每次启动终端所使用的版本：nvm alias default v16.20.0<br>四、本地安装Hexo<br>安装 Hexo：npm install -g hexo-cli（这里提示可以更新npm版本，可以更新一下：npm install -g <a href="mailto:&#110;&#x70;&#x6d;&#x40;&#57;&#x2e;&#x37;&#x2e;&#49;">&#110;&#x70;&#x6d;&#x40;&#57;&#x2e;&#x37;&#x2e;&#49;</a>）</p>
+<p>使用指定版本：nvm use v16.20.0<br>指定每次启动终端所使用的版本：nvm alias default v16.20.0<br>四、本地安装Hexo<br>安装 Hexo：npm install -g hexo-cli（这里提示可以更新npm版本，可以更新一下：npm install -g <a href="mailto:&#110;&#x70;&#109;&#x40;&#x39;&#x2e;&#x37;&#x2e;&#x31;">&#110;&#x70;&#109;&#x40;&#x39;&#x2e;&#x37;&#x2e;&#x31;</a>）</p>
 <p>五、搭建博客<br>准备一个文件夹：mkdir blog<br>初始化：hexo init blog</p>
 <p>进入文件夹：cd blog<br>安装：npm install</p>
 <p>查看生成的文件：ls</p>

@@ -2,9 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/2024/06/08/%E5%AE%89%E8%A3%9DHexo%E9%83%A8%E7%BD%B2%E5%88%B0Github/</loc>
+    <loc>https://xxxgod.github.io/tags/index.html</loc>
     
-    <lastmod>2024-06-08</lastmod>
+    <lastmod>2024-06-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xxxgod.github.io/categories/index.html</loc>
+    
+    <lastmod>2024-06-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xxxgod.github.io/2022/06/09/%E5%AE%89%E8%A3%85HEXO%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/</loc>
+    
+    <lastmod>2024-06-09</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -12,13 +30,34 @@
   
 
   <url>
-    <loc>http://example.com/</loc>
-    <lastmod>2024-06-08</lastmod>
+    <loc>https://xxxgod.github.io/</loc>
+    <lastmod>2024-06-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
+  <url>
+    <loc>https://xxxgod.github.io/tags/%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2024-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xxxgod.github.io/tags/blog/</loc>
+    <lastmod>2024-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
+  
+  <url>
+    <loc>https://xxxgod.github.io/categories/%E5%BB%BA%E7%AB%99/</loc>
+    <lastmod>2024-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 </urlset>

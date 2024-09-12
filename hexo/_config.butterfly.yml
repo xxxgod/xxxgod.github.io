@@ -13,14 +13,17 @@ nav:
 menu:
   主页: / || fas fa-home
   贡献: /archives/ || fas fa-archive
-  标签: /tags/ || fas fa-tags
-  分类: /categories/ || fas fa-folder-open
+  开源项目||fas fa-list:
+    IT-Geeker: https://github.com/xxxgod/IT-Geeker || fas fa-link
+    Java开发导航: https://github.com/xxxgod/Java-DevSpace || fas fa-link
+    ROM开发入门到精通: https://github.com/xxxgod/ROM-DevGuide || fas fa-link
+  关于我: https://github.com/xxxgod/xxxgod/ || fas fa-heart  
+#  标签: /tags/ || fas fa-tags
+#  分类: /categories/ || fas fa-folder-open
 #  List||fas fa-list:
 #    Music: /music/ || fas fa-music
 #    Movie: /movies/ || fas fa-video
 #  Link: /link/ || fas fa-link
-  关于我: https://github.com/xxxgod/xxxgod/ || fas fa-heart
-
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -50,7 +53,7 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
+  img: /img/favicon.png
   effect: false
 
 # Disable all banner image
@@ -60,28 +63,28 @@ disable_top_img: false
 index_img: /img/index.jpg
 
 # If the banner of page not setting, it will show the top_img
-default_top_img:
+default_top_img: /img/index.jpg
 
 # The banner image of archive page
-archive_img:
+archive_img: /img/index.jpg
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img:
+tag_img: /img/index.jpg
 
 # The banner image of tag page
 # format:
 #  - tag name: xxxxx
-tag_per_img:
+tag_per_img: /img/index.jpg
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img:
+category_img: /img/index.jpg
 
 # The banner image of category page
 # format:
 #  - category name: xxxxx
-category_per_img:
+category_per_img: /img/index.jpg
 
 cover:
   # display the cover or not (是否顯示文章封面)
@@ -172,12 +175,12 @@ reward:
   enable: false
   text:
   QR_code:
-    # - img: /img/wechat.jpg
-    #   link:
-    #   text: wechat
+    - img: /img/wechat.jpg
+      link:
+      text: wechat
     # - img: /img/alipay.jpg
-    #   link:
-    #   text: alipay
+      # link:
+      # text: alipay
 
 # Post edit
 # Easily browse and edit blog source code online.
@@ -652,7 +655,7 @@ text_align_justify: false
 background: '#efefef'
 
 # Footer Background
-footer_bg: false
+footer_bg: /img/footer.jpg
 
 # Add mask to header or footer (为 header 或 footer 添加黑色半透遮罩)
 mask:

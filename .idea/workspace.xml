@@ -16,10 +16,21 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24a3c233-0f28-4083-b385-20c2caf324e0" name="Default Changelist" comment="" />
+    <list default="true" id="24a3c233-0f28-4083-b385-20c2caf324e0" name="Default Changelist" comment="忽略" />
+    <list id="bfdf9cf3-9078-457b-85ac-b007bf01e718" name="忽略" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +56,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
@@ -54,7 +66,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -62,6 +74,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="24a3c233-0f28-4083-b385-20c2caf324e0" name="Default Changelist" comment="" />
+      <changelist id="bfdf9cf3-9078-457b-85ac-b007bf01e718" name="忽略" comment="" />
       <created>1722673725743</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -70,7 +83,37 @@
       <workItem from="1722675806303" duration="1403000" />
       <workItem from="1724489001176" duration="594000" />
       <workItem from="1726154633057" duration="45000" />
+      <workItem from="1743510009240" duration="4120000" />
     </task>
+    <task id="LOCAL-00001" summary="整理代码">
+      <created>1743510366537</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1743510366537</updated>
+    </task>
+    <task id="LOCAL-00002" summary="更新内容">
+      <created>1743510811144</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1743510811144</updated>
+    </task>
+    <task id="LOCAL-00003" summary="更新内容">
+      <created>1743510979539</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1743510979539</updated>
+    </task>
+    <task id="LOCAL-00004" summary="整理书签">
+      <created>1743517502482</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743517502482</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,24 +161,28 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="整理代码" />
+    <MESSAGE value="更新内容" />
+    <MESSAGE value="整理书签" />
+    <option name="LAST_COMMIT_MESSAGE" value="整理书签" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="93" y="93" width="1350" height="630" key="DiffContextDialog" timestamp="1722676524793">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="93" y="93" width="1350" height="630" key="DiffContextDialog/0.0.1536.816@0.0.1536.816" timestamp="1722676524793" />
-    <state x="548" y="149" key="FileChooserDialogImpl" timestamp="1722674100163">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="548" y="149" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1722674100163" />
-    <state x="451" y="178" key="Vcs.Push.Dialog.v2" timestamp="1726154668518">
+    <state x="461" y="160" key="SettingsEditor" timestamp="1743510033332">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1722675949873" />
-    <state x="451" y="178" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1726154668518" />
-    <state x="704" y="406" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1726154635672">
+    <state x="461" y="160" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1743510033332" />
+    <state x="806" y="428" key="VCS.ChangelistChooser" timestamp="1743517541336">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="563" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.816@0.0.1536.816" timestamp="1722675879211" />
-    <state x="704" y="406" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1032@0.0.1920.1032" timestamp="1726154635672" />
+    <state x="806" y="428" key="VCS.ChangelistChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1743517541336" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1743510995108">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1743510995108" />
+    <state x="753" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1743517572804">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="753" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1032@0.0.1920.1032" timestamp="1743517572804" />
   </component>
 </project>

@@ -2,8 +2,7 @@
 title: SpringCloud微服务架构演进
 date: 2022-08-21 23:00:59
 tags: 
-- 微服务
-- SpringCloud
+- springcloud
 ---
 
 Spring Cloud是基于Spring Boot的，因此还在使用SpringMVC的同学要先了解Spring Boot。先上一段官话，Spring Cloud是一个基于Spring Boot实现的云应用开发工具，它为基于JVM的云应用开发中涉及的配置管理、服务发现、断路器、智能路由、微代理、控制总线、全局锁、决策竞选、分布式会话和集群状态管理等操作提供了一种简单的开发框架。

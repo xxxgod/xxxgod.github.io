@@ -238,7 +238,7 @@ aside:
       link: https://github.com/xxxgod
   card_announcement:
     enable: true
-    content: 這是我的博客
+    content: 欢迎访问我的博客
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all

@@ -14,9 +14,9 @@ menu:
   主页: / || fas fa-home
   贡献: /archives/ || fas fa-archive
   开源项目||fas fa-list:
-    IT-Geeker: https://github.com/xxxgod/IT-Geeker || fas fa-link
+    IT-Geeker极客研究院: https://github.com/xxxgod/IT-Geeker || fas fa-link
     Java开发导航: https://github.com/xxxgod/Java-DevSpace || fas fa-link
-    ROM开发入门到精通: https://github.com/xxxgod/ROM-DevGuide || fas fa-link
+    X-LifeButler生活管家: https://github.com/xxxgod/X-LifeButler || fas fa-link
   关于我: https://github.com/xxxgod/xxxgod/ || fas fa-heart  
 #  标签: /tags/ || fas fa-tags
 #  分类: /categories/ || fas fa-folder-open
@@ -244,7 +244,7 @@ aside:
       link: https://github.com/xxxgod
   card_announcement:
     enable: true
-    content: 這是我的博客
+    content: 欢迎访问我的博客
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -619,7 +619,7 @@ site_verification:
   enable: true
   main: "#49B1F5"
   paginator: "#00c4b6"
-  button_hover: "#FF7242"
+  button_hover: "#49b1f5"
   text_selection: "#00c4b6"
   link_color: "#99a9bf"
   meta_color: "#858585"

@@ -1,0 +1,243 @@
+Index: docs/tags/jar/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- docs/tags/jar/index.html	(date 1743519500429)
++++ docs/tags/jar/index.html	(date 1743519500429)
+@@ -0,0 +1,159 @@
++<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>标签: jar | xgod Blog</title><meta name="author" content="xgod"><meta name="copyright" content="xgod"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
++<meta property="og:title" content="xgod Blog">
++<meta property="og:url" content="https://xxxgod.github.io/tags/jar/index.html">
++<meta property="og:site_name" content="xgod Blog">
++<meta property="og:locale" content="zh_CN">
++<meta property="og:image" content="https://xxxgod.github.io/img/favicon.png">
++<meta property="article:author" content="xgod">
++<meta name="twitter:card" content="summary">
++<meta name="twitter:image" content="https://xxxgod.github.io/img/favicon.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://xxxgod.github.io/tags/jar/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta/><meta/><meta/><meta/><meta/><meta/><meta/><meta/><meta/><meta/><meta/><meta/><meta/><meta/><meta/><meta/><link rel="stylesheet" href="/css/index.css?v=4.13.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
++  root: '/',
++  algolia: undefined,
++  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
++  translate: undefined,
++  noticeOutdate: undefined,
++  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
++  copy: {
++    success: '复制成功',
++    error: '复制错误',
++    noSupport: '浏览器不支持'
++  },
++  relativeDate: {
++    homepage: false,
++    post: false
++  },
++  runtime: '',
++  dateSuffix: {
++    just: '刚刚',
++    min: '分钟前',
++    hour: '小时前',
++    day: '天前',
++    month: '个月前'
++  },
++  copyright: undefined,
++  lightbox: 'fancybox',
++  Snackbar: undefined,
++  infinitegrid: {
++    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.1/dist/infinitegrid.min.js',
++    buttonText: '加载更多'
++  },
++  isPhotoFigcaption: false,
++  islazyload: false,
++  isAnchor: false,
++  percent: {
++    toc: true,
++    rightside: false,
++  },
++  autoDarkmode: false
++}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
++  title: '标签: jar',
++  isPost: false,
++  isHome: false,
++  isHighlightShrink: false,
++  isToc: false,
++  postUpdate: '2025-04-01 22:51:44'
++}</script><script>(win=>{
++      win.saveToLocal = {
++        set: (key, value, ttl) => {
++          if (ttl === 0) return
++          const now = Date.now()
++          const expiry = now + ttl * 86400000
++          const item = {
++            value,
++            expiry
++          }
++          localStorage.setItem(key, JSON.stringify(item))
++        },
++      
++        get: key => {
++          const itemStr = localStorage.getItem(key)
++      
++          if (!itemStr) {
++            return undefined
++          }
++          const item = JSON.parse(itemStr)
++          const now = Date.now()
++      
++          if (now > item.expiry) {
++            localStorage.removeItem(key)
++            return undefined
++          }
++          return item.value
++        }
++      }
++    
++      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
++        const script = document.createElement('script')
++        script.src = url
++        script.async = true
++        script.onerror = reject
++        script.onload = script.onreadystatechange = function() {
++          const loadState = this.readyState
++          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
++          script.onload = script.onreadystatechange = null
++          resolve()
++        }
++
++        Object.keys(attr).forEach(key => {
++          script.setAttribute(key, attr[key])
++        })
++
++        document.head.appendChild(script)
++      })
++    
++      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
++        const link = document.createElement('link')
++        link.rel = 'stylesheet'
++        link.href = url
++        if (id) link.id = id
++        link.onerror = reject
++        link.onload = link.onreadystatechange = function() {
++          const loadState = this.readyState
++          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
++          link.onload = link.onreadystatechange = null
++          resolve()
++        }
++        document.head.appendChild(link)
++      })
++    
++      win.activateDarkMode = () => {
++        document.documentElement.setAttribute('data-theme', 'dark')
++        if (document.querySelector('meta[name="theme-color"]') !== null) {
++          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
++        }
++      }
++      win.activateLightMode = () => {
++        document.documentElement.setAttribute('data-theme', 'light')
++        if (document.querySelector('meta[name="theme-color"]') !== null) {
++          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
++        }
++      }
++      const t = saveToLocal.get('theme')
++    
++        if (t === 'dark') activateDarkMode()
++        else if (t === 'light') activateLightMode()
++      
++      const asideStatus = saveToLocal.get('aside-status')
++      if (asideStatus !== undefined) {
++        if (asideStatus === 'hide') {
++          document.documentElement.classList.add('hide-aside')
++        } else {
++          document.documentElement.classList.remove('hide-aside')
++        }
++      }
++    
++      const detectApple = () => {
++        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
++          document.documentElement.classList.add('apple')
++        }
++      }
++      detectApple()
++    })(window)</script><link rel="stylesheet" href="/css/background.css"><meta name="generator" content="Hexo 7.2.0"><link rel="alternate" href="/atom.xml" title="xgod Blog" type="application/atom+xml">
++</head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/favicon.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">3</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 贡献</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://github.com/xxxgod/xxxgod/"><i class="fa-fw fas fa-heart"></i><span> 关于我</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 开源项目</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" target="_blank" rel="noopener" href="https://github.com/xxxgod/IT-Geeker"><i class="fa-fw fas fa-link"></i><span> IT-Geeker极客研究院</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://github.com/xxxgod/Java-DevSpace"><i class="fa-fw fas fa-link"></i><span> Java开发导航</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://github.com/xxxgod/X-LifeButler"><i class="fa-fw fas fa-link"></i><span> X-LifeButler生活管家</span></a></li></ul></div></div></div></div><div class="page" id="body-wrap"><header class="not-home-page" id="page-header" style="background-image: url('/img/index.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="xgod Blog"><span class="site-name">xgod Blog</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 贡献</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://github.com/xxxgod/xxxgod/"><i class="fa-fw fas fa-heart"></i><span> 关于我</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 开源项目</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" target="_blank" rel="noopener" href="https://github.com/xxxgod/IT-Geeker"><i class="fa-fw fas fa-link"></i><span> IT-Geeker极客研究院</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://github.com/xxxgod/Java-DevSpace"><i class="fa-fw fas fa-link"></i><span> Java开发导航</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://github.com/xxxgod/X-LifeButler"><i class="fa-fw fas fa-link"></i><span> X-LifeButler生活管家</span></a></li></ul></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="page-site-info"><h1 id="site-title">jar</h1></div></header><main class="layout" id="content-inner"><div id="tag"><div class="article-sort-title">标签 - jar</div><div class="article-sort"><div class="article-sort-item year">2022</div><div class="article-sort-item no-article-cover"><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2022-06-09T07:04:31.000Z" title="发表于 2022-06-09 15:04:31">2022-06-09</time></div><a class="article-sort-item-title" href="/2022/06/09/java%E9%80%86%E5%90%91%E5%AE%89%E5%85%A8%E4%B9%8B%E5%8F%8D%E7%BC%96%E8%AF%91jar%E5%92%8Cjar%E5%8A%A0%E5%AF%86/" title="java逆向安全之反编译jar和jar加密">java逆向安全之反编译jar和jar加密</a></div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/favicon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">xgod</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">3</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxgod"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/xxxgod" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:/" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a><a class="social-icon" href="/" target="_blank" title="CSDN"><i class="fa fa-book-open"></i></a><a class="social-icon" href="/" target="_blank" title="QQ"><i class="fab fa-qq"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">欢迎访问我的博客</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2022/08/21/SpringCloud%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E6%BC%94%E8%BF%9B/" title="SpringCloud微服务架构演进">SpringCloud微服务架构演进</a><time datetime="2022-08-21T15:00:59.000Z" title="发表于 2022-08-21 23:00:59">2022-08-21</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2022/06/09/java%E9%80%86%E5%90%91%E5%AE%89%E5%85%A8%E4%B9%8B%E5%8F%8D%E7%BC%96%E8%AF%91jar%E5%92%8Cjar%E5%8A%A0%E5%AF%86/" title="java逆向安全之反编译jar和jar加密">java逆向安全之反编译jar和jar加密</a><time datetime="2022-06-09T07:04:31.000Z" title="发表于 2022-06-09 15:04:31">2022-06-09</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2021/08/21/Spring%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90/" title="Spring源码解析">Spring源码解析</a><time datetime="2021-08-21T14:46:40.000Z" title="发表于 2021-08-21 22:46:40">2021-08-21</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
++            <i class="fas fa-folder-open"></i>
++            <span>分类</span>
++            
++            </div>
++            <ul class="card-category-list" id="aside-cat-list">
++            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/java/"><span class="card-category-list-name">java</span><span class="card-category-list-count">2</span></a></li>
++            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/springcloud/" style="font-size: 1.1em; color: #999">springcloud</a> <a href="/tags/jar/" style="font-size: 1.1em; color: #999">jar</a> <a href="/tags/spring/" style="font-size: 1.1em; color: #999">spring</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/08/"><span class="card-archive-list-date">八月 2022</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/06/"><span class="card-archive-list-date">六月 2022</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/08/"><span class="card-archive-list-date">八月 2021</span><span class="card-archive-list-count">1</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">3</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2025-04-01T14:51:44.543Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('/img/footer.jpg')"><div id="footer-wrap"><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><canvas class="fireworks" mobile="false"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/dist/fireworks.min.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=4.13.0"></script></div></div></body></html>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"BranchesTreeState\">\r\n    <expand>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </expand>\r\n    <select>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"GROUP_NODE:dependabot\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </select>\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"24a3c233-0f28-4083-b385-20c2caf324e0\" name=\"Default Changelist\" comment=\"忽略\" />\r\n    <list id=\"bfdf9cf3-9078-457b-85ac-b007bf01e718\" name=\"忽略\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/vcs.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/vcs.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"localRepository\" value=\"D:\\XServer\\repository\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2k8ml86EdV11AqfidPRZE3UQqLt\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"autoscrollFromSource\" value=\"true\" />\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"TODO_SCOPE\" value=\"All Places\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"aspect.path.notification.shown\" value=\"true\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/..\" />\r\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\r\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\r\n    <property name=\"node.js.path.for.package.eslint\" value=\"project\" />\r\n    <property name=\"node.js.path.for.package.tslint\" value=\"project\" />\r\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\r\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"project.propVCSSupport.Mappings\" />\r\n  </component>\r\n  <component name=\"SvnConfiguration\">\r\n    <configuration />\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"24a3c233-0f28-4083-b385-20c2caf324e0\" name=\"Default Changelist\" comment=\"\" />\r\n      <changelist id=\"bfdf9cf3-9078-457b-85ac-b007bf01e718\" name=\"忽略\" comment=\"\" />\r\n      <created>1722673725743</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1722673725743</updated>\r\n      <workItem from=\"1722673728928\" duration=\"1626000\" />\r\n      <workItem from=\"1722675806303\" duration=\"1403000\" />\r\n      <workItem from=\"1724489001176\" duration=\"594000\" />\r\n      <workItem from=\"1726154633057\" duration=\"45000\" />\r\n      <workItem from=\"1743510009240\" duration=\"4120000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"整理代码\">\r\n      <created>1743510366537</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1743510366537</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"更新内容\">\r\n      <created>1743510811144</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1743510811144</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"更新内容\">\r\n      <created>1743510979539</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1743510979539</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"整理书签\">\r\n      <created>1743517502482</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1743517502482</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"5\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"2\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"1\">\r\n          <value>\r\n            <State>\r\n              <option name=\"SHOW_ONLY_AFFECTED_CHANGES\" value=\"true\" />\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"HEAD\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                  <entry key=\"roots\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"$PROJECT_DIR$\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"OPEN_GENERIC_TABS\">\r\n      <map>\r\n        <entry key=\"1\" value=\"TOOL_WINDOW\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"整理代码\" />\r\n    <MESSAGE value=\"更新内容\" />\r\n    <MESSAGE value=\"整理书签\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"整理书签\" />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state x=\"461\" y=\"160\" key=\"SettingsEditor\" timestamp=\"1743510033332\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1032\" />\r\n    </state>\r\n    <state x=\"461\" y=\"160\" key=\"SettingsEditor/0.0.1920.1032@0.0.1920.1032\" timestamp=\"1743510033332\" />\r\n    <state x=\"806\" y=\"428\" key=\"VCS.ChangelistChooser\" timestamp=\"1743517541336\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1032\" />\r\n    </state>\r\n    <state x=\"806\" y=\"428\" key=\"VCS.ChangelistChooser/0.0.1920.1032@0.0.1920.1032\" timestamp=\"1743517541336\" />\r\n    <state x=\"552\" y=\"249\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1743510995108\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1032\" />\r\n    </state>\r\n    <state x=\"552\" y=\"249\" key=\"Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032\" timestamp=\"1743510995108\" />\r\n    <state x=\"753\" y=\"429\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2\" timestamp=\"1743517572804\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1032\" />\r\n    </state>\r\n    <state x=\"753\" y=\"429\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1032@0.0.1920.1032\" timestamp=\"1743517572804\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision da91a2efe97dfa5cc32fa86547448044c9947fb3)
++++ .idea/workspace.xml	(date 1743519500428)
+@@ -26,11 +26,10 @@
+     </select>
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="24a3c233-0f28-4083-b385-20c2caf324e0" name="Default Changelist" comment="忽略" />
+-    <list id="bfdf9cf3-9078-457b-85ac-b007bf01e718" name="忽略" comment="">
+-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    <list default="true" id="24a3c233-0f28-4083-b385-20c2caf324e0" name="Default Changelist" comment="整理书签">
++      <change afterPath="$PROJECT_DIR$/docs/tags/jar/index.html" afterDir="false" />
+     </list>
++    <list id="bfdf9cf3-9078-457b-85ac-b007bf01e718" name="忽略" comment="" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -47,13 +46,16 @@
+     </option>
+   </component>
+   <component name="ProjectId" id="2k8ml86EdV11AqfidPRZE3UQqLt" />
+-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
++    <ConfirmationsSetting value="2" id="Add" />
++  </component>
+   <component name="ProjectViewState">
+     <option name="autoscrollFromSource" value="true" />
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+   <component name="PropertiesComponent">
++    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+     <property name="TODO_SCOPE" value="All Places" />
+@@ -83,7 +85,7 @@
+       <workItem from="1722675806303" duration="1403000" />
+       <workItem from="1724489001176" duration="594000" />
+       <workItem from="1726154633057" duration="45000" />
+-      <workItem from="1743510009240" duration="4120000" />
++      <workItem from="1743510009240" duration="4470000" />
+     </task>
+     <task id="LOCAL-00001" summary="整理代码">
+       <created>1743510366537</created>
+@@ -113,7 +115,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1743517502482</updated>
+     </task>
+-    <option name="localTasksCounter" value="5" />
++    <task id="LOCAL-00005" summary="整理书签">
++      <created>1743519373644</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1743519373644</updated>
++    </task>
++    <option name="localTasksCounter" value="6" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -162,6 +171,7 @@
+     <option name="oldMeFiltersMigrated" value="true" />
+   </component>
+   <component name="VcsManagerConfiguration">
++    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+     <MESSAGE value="整理代码" />
+     <MESSAGE value="更新内容" />
+     <MESSAGE value="整理书签" />

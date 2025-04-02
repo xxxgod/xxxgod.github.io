@@ -26,11 +26,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24a3c233-0f28-4083-b385-20c2caf324e0" name="Default Changelist" comment="忽略" />
-    <list id="bfdf9cf3-9078-457b-85ac-b007bf01e718" name="忽略" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="24a3c233-0f28-4083-b385-20c2caf324e0" name="Default Changelist" comment="整理代码">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+    <list id="bfdf9cf3-9078-457b-85ac-b007bf01e718" name="忽略" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +37,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -47,7 +47,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2k8ml86EdV11AqfidPRZE3UQqLt" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -84,6 +86,7 @@
       <workItem from="1724489001176" duration="594000" />
       <workItem from="1726154633057" duration="45000" />
       <workItem from="1743510009240" duration="4120000" />
+      <workItem from="1743576754020" duration="600000" />
     </task>
     <task id="LOCAL-00001" summary="整理代码">
       <created>1743510366537</created>
@@ -113,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1743517502482</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="整理代码">
+      <created>1743519935998</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1743519935998</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,10 +172,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="整理代码" />
     <MESSAGE value="更新内容" />
     <MESSAGE value="整理书签" />
-    <option name="LAST_COMMIT_MESSAGE" value="整理书签" />
+    <MESSAGE value="整理代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="整理代码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="461" y="160" key="SettingsEditor" timestamp="1743510033332">
@@ -180,9 +190,9 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1743510995108" />
-    <state x="753" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1743517572804">
+    <state x="753" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1743519850996">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="753" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1032@0.0.1920.1032" timestamp="1743517572804" />
+    <state x="753" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1032@0.0.1920.1032" timestamp="1743519850996" />
   </component>
 </project>

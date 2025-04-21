@@ -1,11 +1,15 @@
+https://xxxgod.github.io/2018/03/01/Spring-Bean%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/
+https://xxxgod.github.io/2023/04/21/Springboot%E8%87%AA%E5%8A%A8%E9%85%8D%E7%BD%AE/
 https://xxxgod.github.io/2022/08/21/SpringCloud%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E6%BC%94%E8%BF%9B/
+https://xxxgod.github.io/2019/03/20/Springboot%E5%90%AF%E5%8A%A8%E6%B5%81%E7%A8%8B/
 https://xxxgod.github.io/2022/06/09/java%E9%80%86%E5%90%91%E5%AE%89%E5%85%A8%E4%B9%8B%E5%8F%8D%E7%BC%96%E8%AF%91jar%E5%92%8Cjar%E5%8A%A0%E5%AF%86/
-https://xxxgod.github.io/categories/index.html
 https://xxxgod.github.io/tags/index.html
+https://xxxgod.github.io/categories/index.html
 https://xxxgod.github.io/about/index.html
 https://xxxgod.github.io/2021/08/21/Spring%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90/
 https://xxxgod.github.io/
-https://xxxgod.github.io/tags/jar/
+https://xxxgod.github.io/tags/springboot/
 https://xxxgod.github.io/tags/springcloud/
 https://xxxgod.github.io/tags/spring/
+https://xxxgod.github.io/tags/jar/
 https://xxxgod.github.io/categories/java/

@@ -86,7 +86,7 @@
       <workItem from="1724489001176" duration="594000" />
       <workItem from="1726154633057" duration="45000" />
       <workItem from="1743510009240" duration="4120000" />
-      <workItem from="1743576754020" duration="600000" />
+      <workItem from="1743576754020" duration="1202000" />
     </task>
     <task id="LOCAL-00001" summary="整理代码">
       <created>1743510366537</created>
@@ -190,9 +190,9 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1743510995108" />
-    <state x="753" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1743519850996">
+    <state x="753" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1743582789467">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="753" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1032@0.0.1920.1032" timestamp="1743519850996" />
+    <state x="753" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1032@0.0.1920.1032" timestamp="1743582789467" />
   </component>
 </project>
